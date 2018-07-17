@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import sweetAlert from 'sweetalert'
+import sweetAlert from 'sweetalert';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css' // Import css
 var post_api = "https://ujai96180i.execute-api.us-east-1.amazonaws.com/web-exam/exam-web"
@@ -55,6 +55,7 @@ export default class Enter_daily extends Component {
         const user = {
             name: this.state.user_answer,
             questionnumber:this.state.fetched_data.length
+
     };
 
 
